@@ -553,12 +553,72 @@
         border: 2px solid transparent;
         transition: all 0.3s ease;
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
       }
 
       .skill-tag:hover {
         border-color: var(--primary);
         background: rgba(99, 102, 241, 0.1);
         transform: translateY(-2px);
+      }
+
+      .skill-tag i {
+        font-size: 1rem;
+      }
+
+      /* Custom colors for specific technologies */
+      .skill-tag[data-tech="react"] i {
+        color: #61dafb;
+      }
+
+      .skill-tag[data-tech="javascript"] i {
+        color: #f7df1e;
+      }
+
+      .skill-tag[data-tech="html"] i {
+        color: #e34f26;
+      }
+
+      .skill-tag[data-tech="css"] i {
+        color: #1572b6;
+      }
+
+      .skill-tag[data-tech="nodejs"] i {
+        color: #339933;
+      }
+
+      .skill-tag[data-tech="express"] i {
+        color: #000000;
+      }
+
+      .skill-tag[data-tech="mongodb"] i {
+        color: #47a248;
+      }
+
+      .skill-tag[data-tech="firebase"] i {
+        color: #ffca28;
+      }
+
+      .skill-tag[data-tech="tailwind"] i {
+        color: #06b6d4;
+      }
+
+      .skill-tag[data-tech="java"] i {
+        color: #ed8b00;
+      }
+
+      .skill-tag[data-tech="ai"] i {
+        color: #ff6b6b;
+      }
+
+      .skill-tag[data-tech="wordpress"] i {
+        color: #21759b;
+      }
+
+      .skill-tag[data-tech="git"] i {
+        color: #f05032;
       }
 
       /* Projects Section */
@@ -1048,7 +1108,6 @@
                   <i
                     class="fas fa-graduation-cap"
                     style="font-size: 1.2rem"></i>
-
                   <span>Thapar University :</span>
                   <span>B.E. Computer Science Engineer</span>
                 </div>
@@ -1129,7 +1188,7 @@
       </div>
     </section>
 
-       <!-- Skills Section -->
+    <!-- Skills Section -->
     <section id="skills" class="section">
       <div class="container">
         <div class="section-header fade-in">
@@ -1245,8 +1304,7 @@
       </div>
     </section>
 
-
-    <!-- Projects Section
+    <!-- Projects Section -->
     <section id="projects" class="section">
       <div class="container">
         <div class="section-header fade-in">
@@ -1277,13 +1335,15 @@
               </div>
               <div class="project-links">
                 <a
-                  href="https://app.netlify.com/teams/bhangunavi/sites"
-                  class="project-link primary">
+                  href="https://bhangunavi-portfolio.netlify.app/"
+                  class="project-link primary"
+                  target="_blank">
                   <i class="fas fa-external-link-alt"></i> Live Demo
                 </a>
                 <a
                   href="https://github.com/bhangunavi"
-                  class="project-link secondary">
+                  class="project-link secondary"
+                  target="_blank">
                   <i class="fab fa-github"></i> GitHub
                 </a>
               </div>
@@ -1309,13 +1369,15 @@
               </div>
               <div class="project-links">
                 <a
-                  href="https://app.netlify.com/teams/bhangunavi/sites"
-                  class="project-link primary">
+                  href="https://bhangunavi-portfolio.netlify.app/"
+                  class="project-link primary"
+                  target="_blank">
                   <i class="fas fa-external-link-alt"></i> Live Demo
                 </a>
                 <a
                   href="https://github.com/bhangunavi/INFINITE-SCROLL"
-                  class="project-link secondary">
+                  class="project-link secondary"
+                  target="_blank">
                   <i class="fab fa-github"></i> GitHub
                 </a>
               </div>
@@ -1341,13 +1403,15 @@
               </div>
               <div class="project-links">
                 <a
-                  href="https://app.netlify.com/teams/bhangunavi/sites"
-                  class="project-link primary">
+                  href="https://bhangunavi-portfolio.netlify.app/"
+                  class="project-link primary"
+                  target="_blank">
                   <i class="fas fa-external-link-alt"></i> Live Demo
                 </a>
                 <a
                   href="https://github.com/bhangunavi/SIP-SWP-CALCULATOR"
-                  class="project-link secondary">
+                  class="project-link secondary"
+                  target="_blank">
                   <i class="fab fa-github"></i> GitHub
                 </a>
               </div>
@@ -1373,13 +1437,15 @@
               </div>
               <div class="project-links">
                 <a
-                  href="https://app.netlify.com/teams/bhangunavi/sites"
-                  class="project-link primary">
+                  href="https://bhangunavi-portfolio.netlify.app/"
+                  class="project-link primary"
+                  target="_blank">
                   <i class="fas fa-external-link-alt"></i> Live Demo
                 </a>
                 <a
                   href="https://github.com/bhangunavi/Gym_Website"
-                  class="project-link secondary">
+                  class="project-link secondary"
+                  target="_blank">
                   <i class="fab fa-github"></i> GitHub
                 </a>
               </div>
@@ -1405,13 +1471,15 @@
               </div>
               <div class="project-links">
                 <a
-                  href="https://app.netlify.com/teams/bhangunavi/sites"
-                  class="project-link primary">
+                  href="https://bhangunavi-portfolio.netlify.app/"
+                  class="project-link primary"
+                  target="_blank">
                   <i class="fas fa-external-link-alt"></i> Live Demo
                 </a>
                 <a
                   href="https://github.com/bhangunavi/QUOTE-GENERATOR"
-                  class="project-link secondary">
+                  class="project-link secondary"
+                  target="_blank">
                   <i class="fab fa-github"></i> GitHub
                 </a>
               </div>
@@ -1437,13 +1505,15 @@
               </div>
               <div class="project-links">
                 <a
-                  href="https://app.netlify.com/teams/bhangunavi/sites"
-                  class="project-link primary">
+                  href="https://bhangunavi-portfolio.netlify.app/"
+                  class="project-link primary"
+                  target="_blank">
                   <i class="fas fa-external-link-alt"></i> Live Demo
                 </a>
                 <a
                   href="https://github.com/bhangunavi/Roulette"
-                  class="project-link secondary">
+                  class="project-link secondary"
+                  target="_blank">
                   <i class="fab fa-github"></i> GitHub
                 </a>
               </div>
@@ -1456,7 +1526,7 @@
             href="https://github.com/bhangunavi"
             class="btn btn-primary"
             target="_blank">
-            <i class="fab fa-github"></i> View More...
+            <i class="fab fa-github"></i> View More Projects
           </a>
         </div>
       </div>
@@ -1632,7 +1702,7 @@
             </div>
             <h3 style="color: black">Portfolio</h3>
             <a
-              href="https://app.netlify.com/teams/bhangunavi/sites"
+              href="https://bhangunavi-portfolio.netlify.app/"
               target="_blank"
               style="color: black; text-decoration: none"
               >Live Projects</a
@@ -1702,7 +1772,7 @@
             <i class="fab fa-linkedin"></i>
           </a>
           <a
-            href="https://app.netlify.com/teams/bhangunavi/sites"
+            href="https://bhangunavi-portfolio.netlify.app/"
             target="_blank"
             style="color: white; font-size: 1.5rem; transition: all 0.3s ease">
             <i class="fas fa-globe"></i>
