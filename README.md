@@ -1,5 +1,6 @@
 # Portfolio_N
 # 🚀 Navdeep Singh - Full Stack Developer Portfolio
+# Live Project (https://bhangunavi-portfolio.netlify.app/)
 
 > A modern, interactive portfolio website showcasing expertise in MERN Stack, AI Integration, and Java DSA
 
